@@ -1,0 +1,10 @@
+{
+	"devDependencies": {
+		"tailwindcss": "^3.4.6",
+		"@tailwindcss/forms": "^0.5.7",
+		"@tailwindcss/typography": "^0.5.13"
+	},
+	"scripts": {
+		"css": "pnpx tailwindcss -i ./tailwind.css -o ./Public/css/style.css --watch"
+	}
+}

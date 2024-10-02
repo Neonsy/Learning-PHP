@@ -1,0 +1,13 @@
+{
+    "name": "neonsy/mvc-space",
+    "type": "project",
+    "require": {
+      "ext-pdo": "*",
+      "ext-ctype": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVCSpace\\": "SRC"
+        }
+    }
+}
